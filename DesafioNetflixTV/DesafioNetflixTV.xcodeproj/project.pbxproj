@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		594AD095202B574900E5146B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594AD094202B574900E5146B /* TableViewController.swift */; };
+		594AD097202B58F100E5146B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594AD096202B58F100E5146B /* TableViewCell.swift */; };
+		594AD099202B7AB200E5146B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594AD098202B7AB200E5146B /* CollectionViewCell.swift */; };
+		5961F701202A212C0009CC8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961F700202A212C0009CC8C /* AppDelegate.swift */; };
+		5961F703202A212C0009CC8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961F702202A212C0009CC8C /* ViewController.swift */; };
+		5961F706202A212C0009CC8C /* DesafioNetflixTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5961F704202A212C0009CC8C /* DesafioNetflixTV.xcdatamodeld */; };
+		5961F709202A212C0009CC8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5961F707202A212C0009CC8C /* Main.storyboard */; };
+		5961F70B202A212C0009CC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5961F70A202A212C0009CC8C /* Assets.xcassets */; };
+		5961F717202A27A10009CC8C /* SessaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961F716202A27A10009CC8C /* SessaoTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		594AD094202B574900E5146B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		594AD096202B58F100E5146B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		594AD098202B7AB200E5146B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		5961F6FD202A212C0009CC8C /* DesafioNetflixTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioNetflixTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5961F700202A212C0009CC8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5961F702202A212C0009CC8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5961F705202A212C0009CC8C /* DesafioNetflixTV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DesafioNetflixTV.xcdatamodel; sourceTree = "<group>"; };
+		5961F708202A212C0009CC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5961F70A202A212C0009CC8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5961F70C202A212C0009CC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5961F716202A27A10009CC8C /* SessaoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessaoTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5961F6FA202A212C0009CC8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5961F6F4202A212C0009CC8C = {
+			isa = PBXGroup;
+			children = (
+				5961F6FF202A212C0009CC8C /* DesafioNetflixTV */,
+				5961F6FE202A212C0009CC8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5961F6FE202A212C0009CC8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5961F6FD202A212C0009CC8C /* DesafioNetflixTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5961F6FF202A212C0009CC8C /* DesafioNetflixTV */ = {
+			isa = PBXGroup;
+			children = (
+				5961F700202A212C0009CC8C /* AppDelegate.swift */,
+				5961F702202A212C0009CC8C /* ViewController.swift */,
+				5961F707202A212C0009CC8C /* Main.storyboard */,
+				5961F70A202A212C0009CC8C /* Assets.xcassets */,
+				5961F70C202A212C0009CC8C /* Info.plist */,
+				5961F704202A212C0009CC8C /* DesafioNetflixTV.xcdatamodeld */,
+				5961F716202A27A10009CC8C /* SessaoTableViewCell.swift */,
+				594AD094202B574900E5146B /* TableViewController.swift */,
+				594AD096202B58F100E5146B /* TableViewCell.swift */,
+				594AD098202B7AB200E5146B /* CollectionViewCell.swift */,
+			);
+			path = DesafioNetflixTV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5961F6FC202A212C0009CC8C /* DesafioNetflixTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5961F70F202A212C0009CC8C /* Build configuration list for PBXNativeTarget "DesafioNetflixTV" */;
+			buildPhases = (
+				5961F6F9202A212C0009CC8C /* Sources */,
+				5961F6FA202A212C0009CC8C /* Frameworks */,
+				5961F6FB202A212C0009CC8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioNetflixTV;
+			productName = DesafioNetflixTV;
+			productReference = 5961F6FD202A212C0009CC8C /* DesafioNetflixTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5961F6F5202A212C0009CC8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Renan Alves";
+				TargetAttributes = {
+					5961F6FC202A212C0009CC8C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5961F6F8202A212C0009CC8C /* Build configuration list for PBXProject "DesafioNetflixTV" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5961F6F4202A212C0009CC8C;
+			productRefGroup = 5961F6FE202A212C0009CC8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5961F6FC202A212C0009CC8C /* DesafioNetflixTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5961F6FB202A212C0009CC8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5961F70B202A212C0009CC8C /* Assets.xcassets in Resources */,
+				5961F709202A212C0009CC8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5961F6F9202A212C0009CC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5961F706202A212C0009CC8C /* DesafioNetflixTV.xcdatamodeld in Sources */,
+				5961F703202A212C0009CC8C /* ViewController.swift in Sources */,
+				5961F701202A212C0009CC8C /* AppDelegate.swift in Sources */,
+				594AD099202B7AB200E5146B /* CollectionViewCell.swift in Sources */,
+				594AD097202B58F100E5146B /* TableViewCell.swift in Sources */,
+				594AD095202B574900E5146B /* TableViewController.swift in Sources */,
+				5961F717202A27A10009CC8C /* SessaoTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5961F707202A212C0009CC8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5961F708202A212C0009CC8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5961F70D202A212C0009CC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		5961F70E202A212C0009CC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5961F710202A212C0009CC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8A5455B8KE;
+				INFOPLIST_FILE = DesafioNetflixTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.renan.higor.DesafioNetflixTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		5961F711202A212C0009CC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8A5455B8KE;
+				INFOPLIST_FILE = DesafioNetflixTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.renan.higor.DesafioNetflixTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5961F6F8202A212C0009CC8C /* Build configuration list for PBXProject "DesafioNetflixTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5961F70D202A212C0009CC8C /* Debug */,
+				5961F70E202A212C0009CC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5961F70F202A212C0009CC8C /* Build configuration list for PBXNativeTarget "DesafioNetflixTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5961F710202A212C0009CC8C /* Debug */,
+				5961F711202A212C0009CC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5961F704202A212C0009CC8C /* DesafioNetflixTV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5961F705202A212C0009CC8C /* DesafioNetflixTV.xcdatamodel */,
+			);
+			currentVersion = 5961F705202A212C0009CC8C /* DesafioNetflixTV.xcdatamodel */;
+			path = DesafioNetflixTV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5961F6F5202A212C0009CC8C /* Project object */;
+}
