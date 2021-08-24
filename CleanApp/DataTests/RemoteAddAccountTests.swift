@@ -7,6 +7,8 @@
 
 import XCTest
 
+import Domain
+
 class RemoteAddAccount {
     
     
@@ -19,9 +21,11 @@ class RemoteAddAccount {
         self.httpClient = httpClient
     }
     
-    func add() {
+    func add(addAccountModel: AddAccountModel) {
         
-        httpClient.post(url: url)
+        let data = try? JSONEncoder().encode(addAccountModel)
+        
+        httpClient.post(to: url, with: data)
         
     }
     
@@ -29,7 +33,7 @@ class RemoteAddAccount {
 
 protocol HttpPostClient {
     
-    func post(url: URL)
+    func post(to url: URL, with data: Data?)
     
 }
 
@@ -39,26 +43,57 @@ class RemoteAddAccountTests: XCTestCase {
         
         let url = URL(string: "https://any-url.com")!
         
-        let httpClientSpy = HttpClientSpy()
+        let (sut, httpClientSpy) = makeSut(url: url)
         
-        let sut = RemoteAddAccount(url: url, httpClient: httpClientSpy)
-        
-        sut.add()
+        sut.add(addAccountModel: makeAddAccountModel())
         
         XCTAssertEqual(httpClientSpy.url, url)
         
     }
+    
+    func test_add_should_call_httpClient_with_correct_data() {
+        
+        let (sut, httpClientSpy) = makeSut()
+        
+        let addAccountModel = makeAddAccountModel()
+        
+        sut.add(addAccountModel: addAccountModel)
+        
+        let data = try? JSONEncoder().encode(addAccountModel)
+        
+        XCTAssertEqual(httpClientSpy.data, data)
+        
+    }
+    
+}
 
 
+extension RemoteAddAccountTests {
+    
     class HttpClientSpy: HttpPostClient {
         
         var url: URL?
         
-        func post(url: URL) {
-            
+        var data: Data?
+        
+        func post(to url: URL, with data: Data?) {
             self.url = url
-            
+            self.data = data
         }
+        
+    }
+    
+    func makeAddAccountModel() -> AddAccountModel {
+        return AddAccountModel(name: "any_name", email: "any_name@email.com", password: "any_password", passwordConfirmation: "any_password")
+    }
+ 
+    func makeSut(url: URL = URL(string: "https://any-url.com")!) -> (sut: RemoteAddAccount, httpClientSpy: HttpClientSpy) {
+        
+        let httpClientSpy = HttpClientSpy()
+        
+        let sut = RemoteAddAccount(url: url, httpClient: httpClientSpy)
+        
+        return (sut: sut, httpClientSpy)
         
     }
     
