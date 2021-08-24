@@ -7,7 +7,13 @@
 
 import Foundation
 
-public struct AddAccountModel: Encodable {
+public protocol AddAccount {
+    
+    func add(addAccountModel: AddAccountModel, completion: @escaping (Result<AddAccountModel, Error>) -> Void)
+    
+}
+
+public struct AddAccountModel: Model {
     public var name: String
     public var email: String
     public var password: String
@@ -20,10 +26,4 @@ public struct AddAccountModel: Encodable {
         self.password = password
         self.passwordConfirmation = passwordConfirmation
     }
-}
-
-public protocol AddAccount {
-    
-    func add(addAccountModel: AddAccountModel, completion: @escaping (Result<AddAccountModel, Error>) -> Void)
-    
 }
