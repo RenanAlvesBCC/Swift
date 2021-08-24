@@ -99,6 +99,8 @@
 		590D040526CE9B2D0038A237 /* layout */ = {
 			isa = PBXGroup;
 			children = (
+				5923CC6B26CFDFEA004989A9 /* ViewModel */,
+				5923CC6A26CFDF8F004989A9 /* View */,
 				590D040626CE9B2D0038A237 /* AppDelegate.swift */,
 				590D040826CE9B2D0038A237 /* SceneDelegate.swift */,
 				590D040A26CE9B2D0038A237 /* ViewController.swift */,
@@ -126,6 +128,20 @@
 				590D042D26CE9B2F0038A237 /* Info.plist */,
 			);
 			path = layoutUITests;
+			sourceTree = "<group>";
+		};
+		5923CC6A26CFDF8F004989A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5923CC6B26CFDFEA004989A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

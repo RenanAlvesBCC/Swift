@@ -107,7 +107,19 @@ class ViewController: UIViewController {
         stackView.backgroundColor = .systemGray2
         loginField.backgroundColor = .white
         passwordField.backgroundColor = .white
+        
+        self.setupConstraints()
   
+    }
+
+
+}
+
+extension ViewController {
+    
+    
+    private func setupConstraints() {
+        
         stackView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.8).isActive = true
         stackView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.3).isActive = true
         stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
@@ -124,8 +136,7 @@ class ViewController: UIViewController {
         buttonLogin.heightAnchor.constraint(equalTo: stackView.heightAnchor, multiplier: 0.15).isActive = true
 
         buttonLogin.addTarget(self, action: #selector(handleLogin), for: UIControl.Event.touchDown)
+        
     }
-
-
+    
 }
-
